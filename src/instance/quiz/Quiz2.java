@@ -4,8 +4,13 @@ public class Quiz2 {
 
 	public static void main(String[] args) {
 
-		Order order = new Order()
-				
+		Order order = new Order();
+		order.orderNum = 1111;
+		order.orderDate = "2018년 3월 12일";
+		order.ordererName = "둘리";
+		order.deliveryAddress = "서울시 영등포구 여의도동 20번지";
+		order.showOrderInfo();
+		System.out.println();
 		
 	}
 
@@ -16,11 +21,7 @@ class Order {
 	int orderNum;		 // 주문번호
 	String orderDate;  	 // 주문날짜
 	String ordererName;  // 주문자 이름
-	int deliveryAddress; // 배송지
-
-	public void setOrder(boolean) {
-		
-	}
+	String deliveryAddress; // 배송지
 	
 	public void showOrderInfo() {
 		System.out.println("주문번호: " + orderNum +

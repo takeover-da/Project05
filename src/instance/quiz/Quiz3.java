@@ -3,8 +3,8 @@ package instance.quiz;
 public class Quiz3 {
 
 	public static void main(String[] args) {
-asd
-		
+
+		asd
 	}
 
 }
